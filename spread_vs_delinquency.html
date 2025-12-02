@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread vs Delinquency Visualization</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 1200px;
+        }
+        .back-link {
+            margin-bottom: 1rem;
+        }
+        .back-link a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-link">
+        <a href="index.html">← Back to Index</a>
+    </div>
+    <h1>Spread vs Delinquency</h1>
+    <div id="visualization"></div>
+    
+    <!-- Load D3 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Load your visualization -->
+    <script src="spread_vs_delinquency.js"></script>
+</body>
+</html>
